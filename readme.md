@@ -12,6 +12,7 @@ A responsive CSS-only lightbox.
 
 - [x] fix bug where part of the clickable preview is obscured at wider screen sizes
 - [x] center the preview image with `object-fit` and `object-position`
+- [x] add breakpoint to spearate larger from mobile sizes
 
 ---
 <small>Adapted (to be responsive) from [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>
