@@ -1,6 +1,6 @@
-# Minimal CSS slider
+# CSS lightbox
 
-Uses CSS variables to set slider width. Hover to pause.
+A responsive CSS-only lightbox.
 
 ---
-<small>Adapted from an [original by A. J. Webb](https://codepen.io/webbushka/pen/CtbLd)</small>
+<small>Adapted to be responsive from [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>

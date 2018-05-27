@@ -3,43 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML slider</title>
+  <title>CSS lightbox</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Minimal CSS slider</h1>
-  <p>Uses CSS variables to set slider width. Hover to pause.</p>
-  <section>
-    <article>
-      <h2>Slide 1</h2>
-    </article>
-    <article>
-      <h2>Slide 2</h2>
-    </article>
-    <article>
-      <h2>Slide 3</h2>
-    </article>
-    <article>
-      <h2>Slide 4</h2>
-    </article>
-    <article>
-      <h2>Slide 5</h2>
-    </article>
-    <article>
-      <h2>Slide 6</h2>
-    </article>
-    <article>
-      <h2>Slide 7</h2>
-    </article>
-    <article>
-      <h2>Slide 8</h2>
-    </article>
-    <article>
-      <h2>Slide 9</h2>
-    </article>
-    <article>
-      <h2>Slide 10</h2>
-    </article>
+  <!-- <h1>CSS lightbox</h1>
+  <p>description</p> -->
+
+  <!-- thumbnail image wrapped in a link -->
+  <section id="gallery">
+    <!-- thumbnail image wrapped in a link -->
+    <section class="item">
+      <a href="#img1"><img src="img/img1.jpg"></a>
+    </section>
+    <section class="item">
+      <a href="#img2"><img src="img/img2.jpg"></a>
+    </section>
+    <section class="item">
+      <a href="#img3"><img src="img/img3.jpg"></a>
+    </section>
   </section>
+
+  <!-- lightbox container hidden with CSS -->
+  <div class="lightbox" id="img1">
+    <div class="box">
+      <a class="close" href="#">X</a>
+      Lorem ipsum dolor sit amet
+      <div class="content">
+        <img src="img/img1.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="img2">
+    <div class="box">
+      <a class="close" href="#">X</a>
+      Lorem ipsum dolor sit amet
+      <div class="content">
+        <img src="img/img2.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="img3">
+    <div class="box">
+      <a class="close" href="#">X</a>
+      Lorem ipsum dolor sit amet
+      <div class="content">
+        <img src="img/img3.jpg">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
