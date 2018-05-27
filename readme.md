@@ -4,6 +4,8 @@ A responsive CSS-only lightbox.
 
 ## TO DO
 
+## DONE
+
 - [x] fix bug that reduces height of clickable area at wider screen sizes
 
 ---
