@@ -1,3 +1,11 @@
+html {
+  /* used once but handy in one place: */
+  --mobPreview: 100px;
+  --mobOffset: -50px;
+  /* used multiple times: */
+  --midPreview: 200px;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: #333;
@@ -10,8 +18,8 @@ body {
   justify-content: center;
 }
 #gallery .item {
-  width: 200px;
-  height: 100px;
+  width: var(--midPreview);
+  height: var(--mobPreview);
   overflow: hidden;
   border: 2px solid #666;
   margin: 5px;
@@ -21,8 +29,8 @@ body {
 }
 #gallery .item a img {
   width: 100%;
-  height: 200px;
-  margin-top: -50px;
+  height: var(--midPreview);
+  margin-top: var(--mobOffset);
   object-fit: cover;
   object-position: center;
 }
@@ -56,7 +64,7 @@ body {
  	margin: 2% auto;
   padding: 10px 20px 10px 20px;
   background: #fff;
-  box-shadow: 0px 0px 20px 0px #000;
+  box-shadow: 0 0 20px 0 #000;
 }
 .lightbox .content {
   display: block;
@@ -83,10 +91,10 @@ body {
 
 @media (min-width: 450px) {
   #gallery .item {
-    height: 200px;
+    height: var(--midPreview);
   }
   #gallery .item a img {
     margin-top: 0px;
-    height: 200px;
+    height: var(--midPreview);
   }
 }
