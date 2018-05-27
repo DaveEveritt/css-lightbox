@@ -48,7 +48,11 @@ body {
   outline: none;
   top: 0;
 }
+.lightbox:target .box {
+  display: block;
+}
 .lightbox .box {
+  display: none;
   width: 90%;
  	margin: 2% auto;
   padding: 10px 20px 10px 20px;
