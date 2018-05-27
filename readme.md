@@ -1,6 +1,6 @@
 # CSS lightbox
 
-A responsive CSS-only lightbox.
+A responsive CSS-only lightbox: [view demo](https://daveeveritt.github.io/css-lightbox/).
 
 Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 
