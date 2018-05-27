@@ -5,6 +5,7 @@ A responsive CSS-only lightbox.
 ## TO DO
 
 - [ ] rewrite HTML to use `figure` and `figcaption`
+- [ ] add Next and Previous buttons
 
 ## DONE
 
@@ -12,4 +13,4 @@ A responsive CSS-only lightbox.
 - [x] center the preview image with `object-position`
 
 ---
-<small>Adapted to be responsive from [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>
+<small>Adapted (to be responsive) from [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>
