@@ -2,7 +2,7 @@
 
 A responsive CSS-only lightbox.
 
-Tested in: Chrome (OS X/Win), Firefox, Safari, Edge
+Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 
 ## TO DO
 
