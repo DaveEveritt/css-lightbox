@@ -21,7 +21,7 @@ body {
   width: var(--midPreview);
   height: var(--mobPreview);
   overflow: hidden;
-  border: 2px solid #666;
+  border: 1px solid #666;
   margin: 5px;
 }
 #gallery .item:hover {
@@ -92,6 +92,7 @@ body {
 @media (min-width: 450px) {
   #gallery .item {
     height: var(--midPreview);
+    border-width: 2px;
   }
   #gallery .item a img {
     margin-top: 0px;

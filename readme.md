@@ -2,6 +2,8 @@
 
 A responsive CSS-only lightbox.
 
+Tested in: Chrome (OS X/Win), Firefox, Safari, Edge
+
 ## TO DO
 
 - [ ] rewrite HTML to use `figure` and `figcaption`
