@@ -23,17 +23,17 @@ body {
   display: flex;
   justify-content: center;
 }
-#gallery .item {
+#gallery figure {
   width: var(--midPreview);
   height: var(--mobPreview);
   overflow: hidden;
   border: 1px solid #666;
   margin: 5px;
 }
-#gallery .item:hover {
+#gallery figure:hover {
   border-color: #222;
 }
-#gallery .item a img {
+#gallery figure a img {
   width: 100%;
   height: var(--midPreview);
   margin-top: var(--mobOffset);
@@ -95,11 +95,11 @@ body {
 /* ------- GALLERY PREVIEW ABOVE MOBLE ------- */
 
 @media (min-width: 450px) {
-  #gallery .item {
+  #gallery figure {
     height: var(--midPreview);
     border-width: 2px;
   }
-  #gallery .item a img {
+  #gallery figure a img {
     margin-top: 0px;
     height: var(--midPreview);
   }
