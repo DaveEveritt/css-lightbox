@@ -55,7 +55,7 @@ body {
   background: rgba(10,10,10,.8);
   transition: opacity .5s ease-in-out;
 }
-.lightbox .box {
+.lightbox figure {
   display: none;
   width: 90%;
   margin: 2% auto;
@@ -70,17 +70,10 @@ body {
   outline: none;
   top: 0;
 }
-.lightbox:target .box {
+.lightbox:target figure {
   display: block;
 }
 
-.lightbox figure {
-  display: block;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  margin: 0;
-}
 .lightbox figure img {
   width: 100%;
   display: block;
