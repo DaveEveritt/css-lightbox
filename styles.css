@@ -33,7 +33,7 @@ body {
 #gallery figure:hover {
   border-color: #222;
 }
-#gallery figure a img {
+#gallery img {
   width: 100%;
   height: var(--midPreview);
   margin-top: var(--mobOffset);
@@ -67,7 +67,7 @@ body {
   margin-bottom: 0.5em;
   font-size: 0.75em;
 }
-.lightbox figure img {
+.lightbox img {
   width: 100%;
   display: block;
 }
@@ -99,7 +99,7 @@ body {
     height: var(--midPreview);
     border-width: 2px;
   }
-  #gallery figure a img {
+  #gallery img {
     margin-top: 0px;
     height: var(--midPreview);
   }
