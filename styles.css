@@ -66,14 +66,14 @@ body {
   background: #fff;
   box-shadow: 0 0 20px 0 #000;
 }
-.lightbox .content {
+.lightbox figure {
   display: block;
   position: relative;
   width: 100%;
   overflow: hidden;
   margin: 0;
 }
-.lightbox .content img {
+.lightbox figure img {
   width: 100%;
   display: block;
   margin-top: 4px;
