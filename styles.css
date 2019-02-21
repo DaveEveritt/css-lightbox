@@ -53,7 +53,7 @@ body {
   z-index: 9999;
   background: rgba(10,10,10,.8);
   transition: opacity .5s ease-in-out;
-  /* replace "opacity" with "all" to anmate the 'dropdown' */
+  /* replace "opacity" with "all" to anmate the 'dropdown' position */
 }
 .lightbox figure {
   display: none;
