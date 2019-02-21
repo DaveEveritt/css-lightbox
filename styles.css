@@ -1,6 +1,5 @@
 html {
-  /* used once but handy in one place: */
-  --mobPreview: 100px;
+  /* moves preview area - used once but handy in one place: */
   --mobOffset: -50px;
   /* used multiple times: */
   --midPreview: 200px;
@@ -24,8 +23,7 @@ body {
   justify-content: center;
 }
 .gallery figure {
-  width: var(--midPreview);
-  height: var(--mobPreview);
+  width: 100%;
   overflow: hidden;
   border: 1px solid #666;
   margin: 5px;
@@ -34,6 +32,7 @@ body {
   border-color: #222;
 }
 .gallery img {
+  display: block;
   width: 100%;
   height: var(--midPreview);
   margin-top: var(--mobOffset);
@@ -54,6 +53,7 @@ body {
   z-index: 9999;
   background: rgba(10,10,10,.8);
   transition: opacity .5s ease-in-out;
+  /* replace "opacity" with "all" to anmate the 'dropdown' */
 }
 .lightbox figure {
   display: none;
