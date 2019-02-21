@@ -19,21 +19,21 @@ body {
 
 /* ------- GALLERY PREVIEW STYLES ------- */
 
- #gallery {
+.gallery {
   display: flex;
   justify-content: center;
 }
-#gallery figure {
+.gallery figure {
   width: var(--midPreview);
   height: var(--mobPreview);
   overflow: hidden;
   border: 1px solid #666;
   margin: 5px;
 }
-#gallery figure:hover {
+.gallery figure:hover {
   border-color: #222;
 }
-#gallery img {
+.gallery img {
   width: 100%;
   height: var(--midPreview);
   margin-top: var(--mobOffset);
@@ -95,11 +95,11 @@ body {
 /* ------- GALLERY PREVIEW ABOVE MOBLE ------- */
 
 @media (min-width: 450px) {
-  #gallery figure {
+  .gallery figure {
     height: var(--midPreview);
     border-width: 2px;
   }
-  #gallery img {
+  .gallery img {
     margin-top: 0px;
     height: var(--midPreview);
   }
