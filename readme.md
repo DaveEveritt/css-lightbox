@@ -7,6 +7,7 @@ Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 ## TO DO
 
 - [ ] add Next and Previous buttons
+- [ ] use `vh` to fix non-scrolling image height issue
 
 ## DONE
 
