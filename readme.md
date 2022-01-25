@@ -7,10 +7,11 @@ Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 ## TO DO
 
 - [ ] add Next and Previous buttons
-- [ ] use CSS custom properties for colors
+- [ ] make gallery preview image height adjustable
 
 ## DONE
 
+- [x] use CSS custom properties for some colors
 - [x] fix non-scrolling image height issue
 - [x] rewrite HTML and CSS to use `figure` anduse `figcaption` tags
 - [x] set CSS variables for the crucial dimensions
