@@ -1,19 +1,16 @@
 html {
-  /* moves preview area - used once but handy in one place: */
+  /* move preview area - used once, handy here: */
   --mobOffset: -50px;
-  /* used multiple times: */
-  --midPreview: 200px;
+  --midPreview: 300px;
 }
-/*
-  Microsoft Edge supports CSS variables.
-  For IE 11, delete the variables and hard-code values below
-  or try Aaron Barker's polyfill:
-  https://github.com/aaronbarker/css-variables-polyfill
-*/
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: #555;
+  background: #333;
+  color: #ddd;
+}
+p a {
+  color: #ddd;
 }
 
 /* ------- GALLERY PREVIEW STYLES ------- */
@@ -25,11 +22,12 @@ body {
 .gallery figure {
   width: 100%;
   overflow: hidden;
-  border: 1px solid #666;
+  border: 1px solid #777;
   margin: 5px;
+  transition: border-color .25s ease-in-out;
 }
 .gallery figure:hover {
-  border-color: #222;
+  border-color: #aaa;
 }
 .gallery img {
   display: block;
@@ -42,7 +40,7 @@ body {
 
 /* ------- LIGHTBOX STYLES ------- */
 
-/* Hides the lightbox and figure and sets styles */
+/* Hides the lightbox and contents, sets their styles */
 .lightbox {
   opacity: 0;
   position: fixed;
@@ -50,17 +48,17 @@ body {
   height: 100%;
   top: -100%;
   left: 0;
-  z-index: 9999;
   background: rgba(10,10,10,.8);
-  transition: opacity .5s ease-in-out;
-  /* replace "opacity" with "all" to anmate the 'dropdown' position */
+  transition: all .5s ease-in-out;
+  /* replace "all" with "opacity" stop the dropdown animation */
 }
 .lightbox figure {
-  display: none;
-  width: 90%;
-  margin: 2% auto;
-  padding: 10px 20px 10px 20px;
-  background: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 100%;
+  margin: 1% auto;
+  padding: 10px 20px;
+  background: inherit;
   box-shadow: 0 0 20px 0 #000;
 }
 .lightbox figcaption {
@@ -68,18 +66,26 @@ body {
   font-size: 0.75em;
 }
 .lightbox img {
-  width: 100%;
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 90vh;
 }
 .lightbox .close {
   display: block;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  padding: 2px;
   float: right;
   text-decoration: none;
   font-weight: bold;
-  color: #777;
+  color: inherit;
+  border: 2px solid #333;
+  border-radius: 2px;
 }
 .lightbox .close:hover {
-  color: #000;
+  background: #444;
 }
 
 /* Shows the lightbox only when targeted */
