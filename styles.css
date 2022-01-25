@@ -1,7 +1,6 @@
 html {
-  /* move preview area - used once, handy here: */
-  --mobOffset: -50px;
-  --midPreview: 300px;
+  --light-grey: #aaa;
+  --mid-grey: #777;
 }
 
 body {
@@ -22,18 +21,16 @@ p a {
 .gallery figure {
   width: 100%;
   overflow: hidden;
-  border: 1px solid #777;
+  border: 1px solid var(--mid-grey);
   margin: 5px;
   transition: border-color .25s ease-in-out;
 }
 .gallery figure:hover {
-  border-color: #aaa;
+  border-color: var(--light-grey);
 }
 .gallery img {
   display: block;
   width: 100%;
-  height: var(--midPreview);
-  margin-top: var(--mobOffset);
   object-fit: cover;
   object-position: center;
 }
@@ -59,11 +56,12 @@ p a {
   margin: 1% auto;
   padding: 10px 20px;
   background: inherit;
-  box-shadow: 0 0 20px 0 #000;
+  box-shadow: 0 0 40px 0 #000;
 }
 .lightbox figcaption {
-  margin-bottom: 0.5em;
+  display: block;
   font-size: 0.75em;
+  margin-bottom: .75em;
 }
 .lightbox img {
   display: block;
@@ -81,11 +79,12 @@ p a {
   text-decoration: none;
   font-weight: bold;
   color: inherit;
-  border: 2px solid #333;
+  border: 2px solid var(--mid-grey);
   border-radius: 2px;
+  transition: border-color .25s ease-in-out;
 }
 .lightbox .close:hover {
-  background: #444;
+  border-color: var(--light-grey);
 }
 
 /* Shows the lightbox only when targeted */
@@ -100,14 +99,13 @@ p a {
 
 /* ------- GALLERY PREVIEW ABOVE MOBLE ------- */
 
-@media (min-width: 450px) {
+@media (min-width: 440px) {
   .gallery figure {
-    height: var(--midPreview);
     border-width: 2px;
   }
   .gallery img {
-    margin-top: 0px;
-    height: var(--midPreview);
+    /* adjust to suit */
+    height: 400px;
   }
   .lightbox figcaption {
     font-size: 1em;
