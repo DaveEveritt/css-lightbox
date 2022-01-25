@@ -99,7 +99,7 @@ p a {
 
 /* ------- GALLERY PREVIEW ABOVE MOBLE ------- */
 
-@media (min-width: 440px) {
+@media (min-width: 620px) {
   .gallery figure {
     border-width: 2px;
   }
