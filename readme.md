@@ -6,8 +6,8 @@ Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 
 ## TO DO
 
-- [ ] add to front-end-materials/css-animation-transition/
 - [ ] add Next and Previous buttons?
+- [ ] make entire image click to close
 
 ## DONE
 
