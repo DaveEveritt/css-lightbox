@@ -45,7 +45,7 @@ p a {
   height: 100%;
   top: -100%;
   left: 0;
-  background: rgba(10,10,10,.8);
+  background: rgba(10,10,10,.75);
   transition: opacity .5s ease-in-out;
   /* replace "opacity" with "all" to activate a dropdown animation */
 }
@@ -60,8 +60,9 @@ p a {
 }
 .lightbox figcaption {
   display: block;
+  text-align: center;
   font-size: 0.75em;
-  margin-bottom: .75em;
+  margin-top: .75em;
 }
 .lightbox img {
   display: block;

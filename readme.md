@@ -7,9 +7,11 @@ Tested in: Chrome, Edge (OS X/Win), Firefox, Safari (desktop/mobile), Brave
 ## TO DO
 
 - [ ] add Next and Previous buttons?
+- [ ] animate opacity on close (hm. Fixes welcome!)
 
 ## DONE
 
+- [x] move figcaption to bottom and centre text
 - [x] make opacity default animation, leave drop-down as option
 - [x] make entire image click to close
 - [x] make gallery preview image height adjustable
@@ -22,6 +24,7 @@ Tested in: Chrome, Edge (OS X/Win), Firefox, Safari (desktop/mobile), Brave
 - [x] add breakpoint to separate larger from mobile sizes
 
 ---
-<small>Extensively adapted from good foundations: [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>
+
+<small>Very extensively adapted from a good foundation: [Create a pure css image lightbox](https://webdesignerhut.com/pure-css-image-lightbox/)</small>
 
 <!-- alternative version here: https://codepen.io/gschier/pen/HCoqh -->
