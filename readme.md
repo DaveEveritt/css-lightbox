@@ -7,14 +7,15 @@ Tested in: Chrome (OS X/Win), Firefox, Safari (desktop/mobile), Edge
 ## TO DO
 
 - [ ] add Next and Previous buttons?
-- [ ] make entire image click to close
 
 ## DONE
 
+- [x] make opacity default animation, leave drop-down as option
+- [x] make entire image click to close
 - [x] make gallery preview image height adjustable
 - [x] use CSS custom properties for some colors
 - [x] fix non-scrolling image height issue
-- [x] rewrite HTML and CSS to use `figure` anduse `figcaption` tags
+- [x] rewrite HTML and CSS to use `figure` and use `figcaption` tags
 - [x] set CSS variables for the crucial dimensions
 - [x] fix bug where part of the clickable preview is obscured at wider screen sizes
 - [x] center the preview image with `object-fit` and `object-position`
