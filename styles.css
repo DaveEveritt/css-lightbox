@@ -46,8 +46,8 @@ p a {
   top: -100%;
   left: 0;
   background: rgba(10,10,10,.8);
-  transition: all .5s ease-in-out;
-  /* replace "all" with "opacity" stop the dropdown animation */
+  transition: opacity .5s ease-in-out;
+  /* replace "opacity" with "all" to activate a dropdown animation */
 }
 .lightbox figure {
   box-sizing: border-box;
