@@ -1,6 +1,7 @@
 html {
   --light-grey: #aaa;
   --mid-grey: #777;
+  --dark-grey: #333;
 }
 
 body {
@@ -71,21 +72,19 @@ p a {
   max-height: 90vh;
 }
 .lightbox .close {
+  position: absolute;
   display: block;
   width: 1em;
   height: 1em;
   text-align: center;
   padding: 2px;
-  float: right;
   text-decoration: none;
   font-weight: bold;
-  color: inherit;
-  border: 2px solid var(--mid-grey);
-  border-radius: 2px;
-  transition: border-color .25s ease-in-out;
+  color: white;
+  background: var(--mid-grey);
 }
 .lightbox .close:hover {
-  border-color: var(--light-grey);
+  background: var(--dark-grey);
 }
 
 /* Shows the lightbox only when targeted */
