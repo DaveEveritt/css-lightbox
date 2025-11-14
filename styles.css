@@ -74,6 +74,7 @@ p a {
 .lightbox .close {
   position: absolute;
   display: block;
+  box-sizing: border-box;
   width: 1em;
   height: 1em;
   text-align: center;

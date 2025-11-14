@@ -11,6 +11,7 @@ Tested in: Chrome, Edge (OS X/Win), Firefox, Safari (desktop/mobile), Brave
 
 ## DONE
 
+- [x] simplify close box with `position: absolute`
 - [x] move figcaption to bottom and centre text
 - [x] make opacity default animation, leave drop-down as option
 - [x] make entire image click to close
